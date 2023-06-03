@@ -1,0 +1,28 @@
+{
+  "name": "pastel-noir",
+  "displayName": "Pastel Noir",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "publisher": "akashbdj",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashbdj/pastel-noir"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pastel Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Pastel Noir-color-theme.json"
+      }
+    ]
+  }
+}
